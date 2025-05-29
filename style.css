@@ -1,0 +1,338 @@
+/* css/style.css */
+/* Base styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    padding: 10px;
+    line-height: 1.3;
+    color: black;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.container {
+    max-width: 1350px;
+    margin: auto auto;
+    padding: auto auto;
+
+}
+
+/* Header styles */
+.header {
+    padding-bottom: 10px;
+}
+
+.header__z{
+    font-size: 35px;
+    padding-top: 30px;
+    max-width: 600px;
+
+}
+
+.opisanie {
+    font-size: 23px;
+    max-width: 650px;
+}
+
+.Logo_jpg {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin: -280px auto 0;
+    margin-left: 800px;
+    
+}
+
+/* Whoosh */
+.whoosh {
+    padding: 40px 0;
+    position: relative;
+}
+
+.Whoosh {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.content-wrapper {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.row {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.tarif__Whoosh,
+.geo__Whoosh{
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.settings__Whoosh {
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 750px;
+}
+
+.tarif__WH h3,
+.geo__WH h3,
+.settings__WH h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    max-width: 500px;
+}
+
+.tarif__WH__op p,
+.geo__WH__op p,
+.settings__WH__op p {
+    font-size: 20px;
+    max-width: 500px;
+    font-weight: 500px;
+}
+
+.settings__WH__op p {
+    max-width:650px;
+}
+
+.logo__WH {
+    display: block;
+    width: 200%;
+    max-width: 300px;
+    height: 470px;
+    margin: 40px auto 0;
+    margin-left: 70px;
+    margin-top: 8px;
+}
+
+/*Urent*/
+
+.urent {
+    padding: 40px 0;
+    position: relative;
+}
+
+.Urent {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.content-wrapper1 {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.row1 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.tarif__Urent,
+.geo__Urent{
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 350px;
+}
+
+.settings__Urent {
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 750px;
+}
+
+.tarif__UR h3,
+.geo__UR h3,
+.settings__UR h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    max-width: 300px;
+}
+
+.tarif__UR__op p,
+.geo__UR__op p,
+.settings__UR__op p {
+    font-size: 19px;
+    max-width: 300px;
+    font-weight: 500;
+}
+
+.settings__UR__op p {
+    max-width: 650px;
+}
+
+.logo__UR {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 470px;
+    margin: 40px auto 0;
+    margin-left: 800px;
+    margin-top: -465px;
+}
+
+/*Яндекс Самокаты*/
+
+.go {
+    padding: 40px 0;
+    position: relative;
+}
+
+.Go {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.GO{
+    max-width: 400px;
+}
+
+
+.content-wrapper2 {
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.row2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.tarif__Go,
+.geo__Go{
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 350px;
+}
+
+.settings__Go {
+    border: 3px solid #919191;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 750px;
+}
+
+.tarif__go h3,
+.geo__go h3,
+.settings__go h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    max-width: 300px;
+}
+
+.tarif__go__op p,
+.geo__go__op p,
+.settings__go__op p {
+    font-size: 19px;
+    max-width: 300px;
+    font-weight: 500;
+}
+
+.settings__go__op p {
+    max-width: 650px;
+}
+
+.logo__Go {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 470px;
+    margin: 40px auto 0;
+    margin-left: 800px;
+    margin-top: -480px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile styles */
+@media (max-width: 767px) {
+    .header {
+        text-align: center;
+    }
+
+    .container{
+        margin-left: -10px;
+    }
+    
+    .header__z h2 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .opisanie {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .Logo_jpg {
+        margin-top: 40px;
+        margin: auto;
+    }
+
+    .content-wrapper,.content-wrapper1,.content-wrapper2 {
+        flex-direction: column;
+    }
+
+    .Whoosh,.Urent,.Go{
+        text-align: center;
+    }
+
+
+    .about__img__WH {
+        order: -1;
+        margin-bottom: 30px;
+        text-align:center;
+    }
+    .about__img__UR{
+        order: -1;
+        margin-top: 30px;
+    }
+
+    .about__img__Go{
+        order: -1;
+        margin-top: 30px;
+    }
+
+
+    .logo__WH,.logo__UR,.logo__Go {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+
+
